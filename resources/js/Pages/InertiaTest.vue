@@ -10,4 +10,8 @@ import { Link } from "@inertiajs/inertia-vue3";
     <Link href="">Link</Link>
     <br />
     <Link :href="route('inertia.index')">name route</Link>
+    <br />
+    <Link :href="route('inertia.show', { id: 1 })"
+        >Line parameter name route</Link
+    >
 </template>
